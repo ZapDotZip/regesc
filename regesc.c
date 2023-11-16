@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// This program takes in a string and escapes it such
+// that it can be used as a regular expression
 int main() {
 	char c = '\0';
 	while((c = getchar()) != EOF) {
@@ -23,8 +25,6 @@ int main() {
 			default:
 				putchar(c);
 				break;
-		}
-		
+		}	
 	}
-	
 }
