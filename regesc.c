@@ -8,6 +8,17 @@ int main() {
 			case '?':
 			case '.':
 			case '+':
+			case '^':
+			case '$':
+			case '*':
+			case '\\':
+			case '[':
+			case ']':
+			case '{':
+			case '}':
+			case '(':
+			case ')':
+			case '|':
 				putchar('\\');
 			default:
 				putchar(c);
